@@ -5,6 +5,19 @@ public class Chapter1 {
     private String name;
     private int number;
 
+    public Chapter1() {
+        this.name = "Chapter";
+        this.number = 0;
+    }
+    /*public Chapter1(String name) {
+        this.name = name;
+        this.number = 0;
+    }*/
+    public Chapter1(String name) {
+        this.name = name;
+        this.number = 0;
+    }
+
     public Chapter1(String name, int number) {
         this.name = name;
         this.number = number;
